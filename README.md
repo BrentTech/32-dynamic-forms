@@ -1,42 +1,35 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Dynamic Forms
 
-### Author: Student/Group Name
+### Author: Brent Woodward
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
+* [Assignment 1](https://codesandbox.io/s/ry3n5ym47n)
+
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+#### `Assignment 1-2`
+###### `index.js`
+Renders app.js to the DOM, and wraps/serves app with Provider (giving it access to Store)
+###### `app.js`
+Renders Components, handles local state, and exicutes actions based on interaction
+###### `store/index.js`
+Defines reducer using Combined Reducer and creates/exports store
+###### `store/players-actions.js`
+Exports actions for player route behavior
+###### `store/players-reducer.js`
+Defines reducer functions when actions dispatched from app
+###### `getPlayer.js`
+Component that renders player information from Store
+###### `Player.js`
+Component that renders form from jsonschema
+###### `If.js`
+(If / Else / Then)
+Provides more robust conditional logic for TRUE and FALSE conditions.
 
 #### UML
 Link to an image of the UML for your application and response to events
